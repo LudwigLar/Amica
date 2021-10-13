@@ -44,3 +44,47 @@
     position: absolute;
     bottom: 0;
 }
+
+#logo{
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+#setting{
+    float: right;
+    margin-right: 20px;
+}
+
+#tittel{
+    position: absolute;
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-align:center;
+    width: 70%;
+    height:15%;
+    margin-left: 60px;
+}
+
+#tittel h1{
+    padding-top: 60px;
+        
+    
+}
+
+#innhold{
+    background-color: grey;
+    width: 100%;
+    height:100%;
+    margin-top:150px;
+    padding-bottom:680px;
+    overflow-y: scroll;
+
+}
+
+
+#innhold::-webkit-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: none;
+}
