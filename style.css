@@ -6,6 +6,7 @@
     align-content: center;
     position: absolute;
     margin-left: 60px;
+    margin-top: 30px;
     padding: 0;
 }
 
@@ -25,13 +26,14 @@
 }
 
 .nav {
-    margin-top: 43px;
-    margin-inline-start: 40px;
+    margin-top: 30px;
+    margin-inline-start: 30px;
     margin-inline-end: 20px;
     display: inline;
     position: relative;
     float: left;
     bottom: 24px;
+    object-fit: contain;
    
 }
 
@@ -54,6 +56,8 @@
 #setting{
     float: right;
     margin-right: 20px;
+    margin-top: 20px;
+    object-fit: contain;
 }
 
 #tittel{
