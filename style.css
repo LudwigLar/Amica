@@ -1,0 +1,46 @@
+#frame {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 420px;
+    height: 910px;
+    align-content: center;
+    position: absolute;
+    margin-left: 60px;
+    padding: 0;
+}
+
+#screen {
+    border: 3px solid black;
+    width: 400px;
+    height: 890px;
+    position: relative;
+    margin-top: 6px;
+    margin-left: 6px;
+
+}
+
+#screen h1 {
+    margin-left: 10px;
+
+}
+
+.nav {
+    margin-top: 43px;
+    margin-inline-start: 40px;
+    margin-inline-end: 20px;
+    display: inline;
+    position: relative;
+    float: left;
+    bottom: 24px;
+   
+}
+
+#navbar {
+    
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+}
