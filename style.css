@@ -34,6 +34,8 @@
     float: left;
     bottom: 24px;
     object-fit: contain;
+    transition: all 0.25s ease-in-out;
+    padding-top:+2px;
    
 }
 
@@ -110,11 +112,7 @@
     background-color:rgb(173, 217, 245);
 }
 
-img {
-    transition: all 0.5s ease-in-out;
-}
-
-img:hover {
+.nav:hover {
     background-color: rgb(212, 39, 212);
 }
 
@@ -178,4 +176,7 @@ img:hover {
 }
 #flextext {
     flex-basis:50%;
+}
+.nav.active {
+    background-color: rgba(48, 36, 114, 0.63);
 }
