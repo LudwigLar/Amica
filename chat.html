@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!--
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +29,8 @@
                 
                 <div id="tittel"> 
                     <h1>CHAT</h1>
+                    <h1>Chat</h1>
+
                 </div>
             
             </section>
@@ -40,7 +43,7 @@
                     <h3><u>MATCH</u></h3>
                     <br>
                 
-                    <img class="nav" src="Icon_images/PB.png" width="50" height="50"> 
+                    <button><img class="nav" src="Icon_images/PB.png" width="50" height="50"></button>
                     <p><strong>Person#1</strong></p>
                     <p>Chat content</p>
                     <br>
@@ -70,6 +73,7 @@
                     <p>Chat content</p>
                     <br>
                   
+
                 </div>
         
             </section>
@@ -77,12 +81,80 @@
            
 
 
-             <span id="navbar"> 
-                 <img class="nav" src="Icon_images/Profile.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Event.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Chat.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Tips.png" width="50" height="50">
+            <span id="navbar"> 
+                <img class="nav" src="Icon_images/Profile.png" width="50" height="50"> 
+                <img class="nav" onclick="window.location.href='./index.html'" src="Icon_images/Event.png" width="50" height="50"> 
+                <img class="nav active" onclick="window.location.href='./chat.html'" src="Icon_images/Chat.png" width="50" height="50"> 
+                <img class="nav"  src="Icon_images/Tips.png" width="50" height="50">
+                </span>
 
+        </div>
+
+    </div>
+    
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <div id="frame">
+
+        <div id="screen">
+            <span id="navbar"> 
+                <img class="nav" src="Icon_images/Profile.png" width="50" height="50"> 
+                <img class="nav" onclick="window.location.href='./index.html'" src="Icon_images/Event.png" width="50" height="50"> 
+                <img class="nav active" onclick="window.location.href='./chat.html'" src="Icon_images/Chat.png" width="50" height="50"> 
+                <img class="nav"  src="Icon_images/Tips.png" width="50" height="50">
+                </span>
+            <section> 
+                <h2 id="logo">Amica</h2>
+            
+                <img id="setting" src="Icon_images/Settings.png" width="40" height="40">
+            
+                
+            
+            
+                
+                <div id="tittel"> 
+                    <h1>CHAT</h1>
+                </div>
+                <h2><u id="aevents" class="underheaders">Matches</u></h2><h2><u id="mevents" class="underheaders">Groups</u></h2>
+                <form role="search" id="searchbar">
+                    <input id="search" aria-label="Search through events" placeholder="Search..." type="text">
+                </form>
+            </section>
+
+            <section>
+                <div id="innhold">
+                    <div class="chatbox">
+                        <button><img class="nav" src="Icon_images/PB.png" width="75" height="75"> </button>
+                        <h2 id="etittel">Name Surname</h2>
+                        <p id="kat">Chat Content</p>
+                        
+                    </div>
+
+                 <div class="chatbox">
+                    <div class="eventboks">
+                            <button><img class="nav" src="Icon_images/PB.png" width="75" height="75"> </button>
+                            <h2 id="etittel">Name Surname</h2>
+                            <p id="kat">Chat Content</p>
+                    </div>
+                </div>
+                </div>
+            </section>
         </div>
 
     </div>

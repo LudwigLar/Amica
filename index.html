@@ -15,8 +15,12 @@
     <div id="frame">
 
         <div id="screen">
-            
-            
+            <span id="navbar"> 
+                <img class="nav" src="Icon_images/Profile.png" width="50" height="50"> 
+                <img class="nav active" onclick="window.location.href='./index.html'" src="Icon_images/Event.png" width="50" height="50"> 
+                <img class="nav" onclick="window.location.href='./chat.html'" src="Icon_images/Chat.png" width="50" height="50"> 
+                <img class="nav"  src="Icon_images/Tips.png" width="50" height="50">
+                </span>
             <section> 
                 <h2 id="logo">Amica</h2>
             
@@ -27,24 +31,35 @@
             
                 
                 <div id="tittel"> 
-                    <h1>Sidetittel</h1>
+                    <h1>Events</h1>
                 </div>
-            
+                <h2><u id="aevents" class="underheaders">All events</u></h2><h2><u id="mevents" class="underheaders">My events</u></h2>
+                <form role="search" id="searchbar">
+                    <input id="search" aria-label="Search through events" placeholder="Search..." type="text">
+                </form>
             </section>
 
             <section>
                 <div id="innhold">
-                    <pre>..............................................................................................................................................................................................................</pre>
+                    <div class="eventboks">
+                        <h3 id="kat">Category</h3>
+                        <h2 id="etittel">Event title</h2>
+                        <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                        <button id="registrer">Register</button>
+                    </div>
+
+                    <div id="bboks" class="eventboks">
+                        <h3 id="kat">Category</h3>
+                        <h2 id="etittel">Event title</h2>
+                        <div id="flexy">
+                            <div id="imgt"></div>
+                            <p id="flextext">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                        </div>
+                        <button id="registrer">Register</button>
+                    </div>
+                </div>
                 </div>
             </section>
-
-
-             <span id="navbar"> 
-                 <img class="nav" src="Icon_images/Profile.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Event.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Chat.png" width="50" height="50"> 
-                 <img class="nav" src="Icon_images/Tips.png" width="50" height="50">
-
         </div>
 
     </div>
