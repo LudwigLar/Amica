@@ -29,7 +29,7 @@
                 <img id="setting" src="Icon_images/Settings.png" width="40" height="40">
                 
                 <div id="tittel">
-                    <h1>Create event</h1>
+                    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: lighter;">Create event</h1>
                 </div>
                <div id="filler">
                </div>
@@ -40,38 +40,42 @@
                    <div id="formstyle"> 
                     <form action="" method="post" id="crevent">
                         <label for="title">Event Title</label>
-                        <input type="text" name="title">
+                        <br>
+                        <input type="text" name="title" class="felt">
                         <br>
                         <label for="dt">Date and time</label>
                         <br>
-                        <input type="datetime-local" name="dt">
+                        <input type="datetime-local" name="dt" class="felt">
                         <br>
                         <label for="location">Location</label>
-                        <input type="text" name="location">
                         <br>
-                    </form>
-
-                        <button class="open-button" onclick="openForm()">Open Form</button>
-
-                        <div class="pop" id="checkpop">
-                    <form class="category">
-                        <label for="cat">Category</label>
-                        <input type="text" name="cat">
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                    </form>
-                        </div>
-
-                        <div>
-                    <form>
+                        <input type="text" name="location" class="felt">
+                        <br>
+                        <div id="list1" class="dropdown-check-list" tabindex="100">
+                            <span class="anchor">Category</span>
+                            <ul class="items">
+                              <li><input type="checkbox" />Sport</li>
+                              <li><input type="checkbox" />Movie</li>
+                              <li><input type="checkbox" />Hiking</li>
+                              <li><input type="checkbox" />Party</li>
+                              <li><input type="checkbox" />No alcohol</li>
+                              <li><input type="checkbox" />Cooking </li>
+                              <li><input type="checkbox" />Creative</li>
+                            </ul>
+                          </div>
+               
                         <br>
                         <label for="tags">Tags</label>
-                        <input type="text" name="tags">
+                        <br>
+                        <input type="text" name="tags" class="felt">
                         <br>
                         <label for="desc">Description</label>
-                        <input type="text" name="desc">
+                        <br>
+                        <input type="text" size="25" name="desc" class="felt" id="desc">
                         <br>
                         <label for="bilde">Upload Picture</label>
-                        <input type="file" name="bilde">
+                        <br>
+                        <input type="file" name="bilde" class="felt">
                         <br>
                         <button class="sbutton" type="submit" >Publish</button>
                     </form>
@@ -87,7 +91,8 @@
         </div>
 
     </div>
-
+<script src="script.js">
+</script>
 </body>
 
 </html>
