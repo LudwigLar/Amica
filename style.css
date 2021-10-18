@@ -84,9 +84,8 @@
 
 #innhold {
     width: 100%;
-    height: 0px;
+    height: 550px;
     margin-top: 30px;
-    padding-bottom: 560px;
     overflow-y: scroll;
     overflow-x: hidden;
     position: absolute;
@@ -382,3 +381,38 @@ height: 30px;
     border-image: initial;
     background-color: rgb(166, 222, 245);
   }
+
+#fcat {
+    position:absolute;
+    margin-top:150px;
+    margin-left:100px;
+    border-radius: 20px;
+    border:1px lightgray solid;
+    width:200px;
+    height:30px;
+}
+
+.tipsboks {
+    height:200px;
+    width:95%;
+    background-color:gray;
+    margin:10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.inntips {
+    top:200px;
+    position: absolute;
+    
+}
+option {
+    color:rgb(16, 151, 241);
+    font-size: 20px;
+    text-align: center;
+}
