@@ -34,7 +34,49 @@
 
             <section>
                 <div id="innhold">
-                    <pre>..............................................................................................................................................................................................................</pre>
+                    
+                    <form action="" method="post" id="crevent">
+
+                        <label for="title">Event Title</label>
+                        <input type="text" name="title">
+                        <br>
+                        <label for="dt">Date and time</label>
+                        <br>
+                        <input type="datetime-local" name="dt">
+                        <br>
+                        <label for="location">Location</label>
+                        <input type="text" name="location">
+                        <br>
+                    </form>
+
+                        <button class="open-button" onclick="openForm()">Open Form</button>
+                        <div class="pop" id="checkpop">
+                            
+                        <form class="category">
+                        <label for="cat">Category</label>
+                        <input type="text" name="cat">
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        </form>
+                        
+                        </div>
+
+                        <br>
+                        <label for="tags">Tags</label>
+                        <input type="text" name="tags">
+                        <br>
+                        <label for="desc">Description</label>
+                        <input type="text" name="desc">
+                        <br>
+                        <label for="bilde">Upload Picture</label>
+                        <input type="file" name="bilde">
+                        <br>
+                        <button class="sbutton" type="submit" >Publish</button>
+
+                        <div class="cbutton">
+                            <a href="index.html">Cancel</a>
+                        </div>
+                    </form>
+
                 </div>
             </section>
 
