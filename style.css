@@ -58,11 +58,12 @@
 }
 
 #logo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: helvetica;
     position: absolute;
     margin-left: 20px;
     padding: 3px;
     box-shadow: 0px 2px 4px black;
+    font-weight: lighter;
 }
 
 #setting {
@@ -86,7 +87,8 @@
     padding-top: 60px;
     margin-top: 20px;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: helvetica;
+    font-weight: lighter;
 
 }
 
@@ -125,19 +127,15 @@
 
 }
 #crevent input {
-    background-color: rgb(166, 222, 245);
-    width: 305px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    display: -webkit-inline-box;
 }
 
 .felt {
-height: 30px;
+    height: 30px;
+    width: 305px;
 }
-
-
 
 .underheaders {
     display: inline;
@@ -168,9 +166,6 @@ height: 30px;
     color: rgb(54, 10, 10);
 }
 
-#searchbar {
-}
-
 .searchchat {
     position: absolute;
     margin-top:200px;
@@ -190,14 +185,6 @@ height: 30px;
     margin-top: -5px;
     margin:2px;
     padding:0px;
-    
-}
-
-#etittel {
-
-}
-
-#kat {
     
 }
 
@@ -247,6 +234,59 @@ height: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+button.sbutton{
+    margin-left: 180px;
+    margin-top: 21px;
+    width:130px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    transition-duration: 0.4s;
+}
+
+button.sbutton a{
+    color:black;
+    text-decoration: none;
+}
+
+button.sbutton:hover{
+        background-color: #93dd62; 
+        color: rgb(255, 255, 255);
+}
+
+button.sbutton:hover a{
+    color: white;
+}
+
+button.cbutton{
+    
+    width:130px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    transition-duration: 0.4s;
+}
+
+button.cbutton a{
+    color:black;
+    text-decoration: none;
+}
+
+button.cbutton:hover{
+    background-color: #db5050; 
+    color: rgb(255, 255, 255);
+}
+
+button.cbutton:hover a{
+    color: white;
+}
+
 
 #login{
     width:100%;
@@ -310,7 +350,13 @@ height: 30px;
     background-color: rgb(204, 204, 204);
     border-radius: 30px;
     border-color: gray;
-    border-style: groove;
+    transition-duration: 0.4s;
+}
+
+#butlog:hover{
+    background-color: #444444; 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .dropdown-check-list {
@@ -364,13 +410,14 @@ height: 30px;
   
   .dropdown-check-list.visible .items {
     display: block;
-    color: indigo;
+    color: black;
   }
 
-  input[type="checkbox" i] {
-    margin: 3px 3px 0px 4px;
-    width:100px;
-    height:20px;
+ input[type="checkbox" i] {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   textarea{
@@ -383,7 +430,6 @@ height: 30px;
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
-    background-color: rgb(166, 222, 245);
   }
 
 #fcat {
