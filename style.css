@@ -44,9 +44,17 @@
     text-align: center;
     height: 60px;
     width: 100%;
-    background-color: blueviolet;
+    background-color: rgb(235, 235, 235);
     position: absolute;
     bottom: 0px;
+}
+
+.nav.active {
+    background-color: rgba(71, 184, 250, 0.479);
+}
+
+.nav:hover {
+    cursor: pointer;
 }
 
 #logo {
@@ -104,7 +112,7 @@
 
 #innhold::-webkit-scrollbar-thumb {
     border-radius: 30px;
-    background-color: blueviolet;
+    background-color: rgb(226, 226, 226);
 }
 
 #innhold::-webkit-scrollbar-thumb:hover {
@@ -128,9 +136,8 @@
 .felt {
 height: 30px;
 }
-.nav:hover {
-    background-color: rgb(212, 39, 212);
-}
+
+
 
 .underheaders {
     display: inline;
@@ -221,9 +228,6 @@ height: 30px;
     flex-basis: 50%;
 }
 
-.nav.active {
-    background-color: rgba(48, 36, 114, 0.63);
-}
 
 #header {
     margin-top: 20px;
@@ -417,3 +421,29 @@ option {
     font-size: 20px;
     text-align: center;
 }
+
+#crbutton {
+    width: 50px;
+    height: 50px;
+    font-size: 3em;
+    font-family: helvetica;
+    font-weight: bolder;
+    background-color: rgb(191, 192, 250);
+    border-radius: 30px;
+    border-color: gray;
+    border-style: groove;
+    overflow: hidden;
+    bottom: 80px;
+    right: 35px;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1px;
+}
+
+#crbutton a {
+    color: rgb(0, 0, 0);
+}
+
+
+
