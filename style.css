@@ -141,7 +141,7 @@
     display: inline;
     float: left;
     margin-top: 150px;
-    margin-left: 32px;
+    left: 15px;
     text-decoration: underline;
     position:relative;
 }
@@ -192,7 +192,7 @@
     text-align: center;
     color: white;
     background-color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: helvetica;
     padding: 5px;
     width: 120px;
 }
@@ -453,8 +453,8 @@ button.cbutton:hover a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 34px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    font-family: helvetica;
     margin-left: 50px;
     margin-bottom: 30px;
     
@@ -508,14 +508,15 @@ option {
     margin-right: 5px;
     margin-left: 10px;
 }
-.smunderheader {
+.smunderheader h2{
     display: inline;
-    float: left;
     margin-top: 150px;
-    margin-left: 32px;
     text-decoration: underline;
-    position:relative;
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    left: 25px;
 }
-html{
-    font-family: "Helvetica Neue";
+html {
+    font-family: "Helvetica";
 }
