@@ -445,7 +445,7 @@ button.cbutton:hover a{
 
 .tipsboks {
     height:200px;
-    width:95%;
+    width:300px;
     background-color:gray;
     margin:10px;
     color:white;
@@ -454,6 +454,9 @@ button.cbutton:hover a{
     align-items: center;
     font-size: 34px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
 
 }
 
