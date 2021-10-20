@@ -491,5 +491,27 @@ option {
     color: rgb(0, 0, 0);
 }
 
-
-
+#Friends {
+    margin-right: 10px;
+    margin-left: 26px;
+}
+#Matches {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#Groups {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.smunderheader {
+    display: inline;
+    float: left;
+    margin-top: 150px;
+    margin-left: 32px;
+    text-decoration: underline;
+    position:relative;
+}
+html{
+    font-family: "Helvetica Neue";
+}
