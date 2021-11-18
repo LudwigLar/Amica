@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap');
+:root {
+    --content:#000000;
+    --bg:#fffcfa;
+    --emphasisE:#f07810;
+    --emphasisC:#7b61ff;
+    --subtle:#343434;   
+}
 #frame {
     border: 3px solid black;
     border-radius: 20px;
@@ -8,6 +16,7 @@
     margin-left: 60px;
     margin-top: 30px;
     padding: 0;
+    background-color: var(--bg);
 }
 
 #screen {
@@ -304,13 +313,19 @@ button.cbutton:hover a{
 
 #L2{
     width: 300px;
-    Height: 100px;
-    font-family: helvetica;
+    Height: 80px;
     font-size: 4em;
     text-align: center;
     margin:auto;
     margin-top: 200px;
+    margin-bottom: 10px;
+    color:var(--emphasisE);
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    box-shadow: 0 2px 0 0 var(--content);
 }
+
+
 
 #flog{
     margin: auto;
@@ -330,7 +345,7 @@ button.cbutton:hover a{
 #pwd{
     width: 280px;
     height: 30px;
-    font-size: 1.5em;
+    font-size: 1em;
     border-radius: 30px;
     padding-inline-start: 20px;
 }
@@ -342,21 +357,23 @@ button.cbutton:hover a{
 }
 
 #butlog{
+    color: var(--bg);
     width: 200px;
-    height: 100px;
+    height: 60px;
     margin: auto;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: helvetica;
-    font-weight: bolder;
-    background-color: rgb(204, 204, 204);
-    border-radius: 30px;
-    border-color: gray;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    background-color: var(--emphasisE);
+    border-radius: 10px;
     transition-duration: 0.4s;
+    border-color:var(--bg);
+    border: none;
 }
 
 #butlog:hover{
-    background-color: #444444; 
-    color: rgb(255, 255, 255);
+    background-color: var(--emphasisC); 
     cursor: pointer;
 }
 
