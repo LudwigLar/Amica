@@ -96,7 +96,15 @@
     width: 80%;
     height: 15%;
     margin-left: 40px;
+    color: var(--emphasisE);
+    font-family: var(--text);
 }
+
+.chatTittel {
+    position: relative !important;
+    height: 120px !important;
+}
+
 
 #tittel h1 {
     padding-top: 60px;
@@ -186,15 +194,34 @@
     margin-top:200px;
 }
 
-.chatbox {
-    background-color: rgb(207, 208, 209);
-    word-wrap: break-word;
-    margin-top: -5px;
-    margin:2px;
-    padding:0px;
-    
+.profilBilder {
+    border-radius: 50%;
+    height:55px;
+    width:55px
 }
 
+.chatbox {
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+    font-family: var(--text);
+    border-bottom: var(--emphasisE) 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.chatInfo {
+    font-size: 14px;
+    margin-top:-10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.chatbox h4 {
+    font-weight: lighter;
+    font-size: 11px;
+}
 
 #imgt {
     max-width: 100%;
@@ -597,15 +624,33 @@ option {
     margin-right: 5px;
     margin-left: 10px;
 }
-.smunderheader h2{
-    display: inline;
-    margin-top: 150px;
-    text-decoration: underline;
-    position: relative;
-    float: left;
-    padding-left: 20px;
-    left: 25px;
+
+#navgrid {
+    margin-left: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-family: var(--text);
+    font-size: 18px;
 }
+
+#navgrid .active {
+    color: var(--emphasisE);
+    text-decoration: underline var(--emphasisE);
+}
+
+#navgrid h3:hover {
+    cursor: pointer;
+}
+
+#edges {
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
 html {
     font-family: "Helvetica";
 }
