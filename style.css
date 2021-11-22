@@ -5,6 +5,7 @@
     --emphasisE:#f07810;
     --emphasisC:#7b61ff;
     --subtle:#343434;   
+    --text:'Inter', sans-serif;
 }
 #frame {
     border: 3px solid black;
@@ -180,14 +181,6 @@
     margin-top:200px;
 }
 
-.eventboks {
-    background-color: rgb(207, 208, 209);
-    word-wrap: break-word;
-    margin-top: -5px;
-    margin: 10px;
-    padding: 10px;
-}
-
 .chatbox {
     background-color: rgb(207, 208, 209);
     word-wrap: break-word;
@@ -197,17 +190,6 @@
     
 }
 
-#registrer {
-    text-align: center;
-    color: white;
-    background-color: black;
-    font-family: helvetica;
-    padding: 5px;
-    width: 120px;
-}
-#registrer:hover {
-    background-color:lightslategrey;
-}
 
 #imgt {
     max-width: 100%;
@@ -323,6 +305,91 @@ button.cbutton:hover a{
     font-family:'Inter', sans-serif;
     font-style: normal;
     box-shadow: 0 2px 0 0 var(--content);
+}
+
+.bildeGrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height:auto;
+}
+
+.bgBilde {
+    width:110%;
+    height:120%;
+    border-radius:15px;
+    opacity:0.6;
+}
+
+.bildeBoks {
+    background-size:cover;
+    width:170px;
+    height:180px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    border-radius:15px;
+    overflow: hidden;
+    color:var(--bg);
+    font-family: var(--text);
+}
+.bildeTekst {
+    margin-left:5px;
+    margin-top: 25px;
+    margin-bottom: -18px;
+}
+
+.bildeHeader {
+    font-size: 40px;
+    margin: 0;
+    margin-left:5px;
+    margin-top: 25px;
+    margin-bottom: -18px;
+}
+
+#bildeBoks1 {
+    background-image: url(./bakgrunnsbilder/fotball.jpg);
+    box-shadow: inset 0 0 0 500px rgba(150,159,92,.7); /*Hentet fra https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+}
+
+#bildeBoks2 {
+    background-image: url(./bakgrunnsbilder/Fest.jpg);
+    box-shadow: inset 0 0 0 500px rgba(175,131,102,.7);
+}
+
+#bildeBoks3 {
+    background-image:linear-gradient(135deg, rgb(99, 108, 118), rgba(255, 255, 255, 0.158)), url(./bakgrunnsbilder/Strikk.jpg);
+}
+
+#bildeBoks4 {
+    background-image: url(./bakgrunnsbilder/Dune.jpg);
+    box-shadow: inset 0 0 0 500px rgba(135,172,168,.7);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#bildeBoks5 {
+    background-image:linear-gradient(135deg, rgb(154, 189, 98), rgba(150, 158, 92, 0.10)), url(./bakgrunnsbilder/Tur.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#bildeBoks6 {
+    background-image:linear-gradient(135deg, rgb(175, 131, 102), rgba(150, 158, 92, 0.10)), url(./bakgrunnsbilder/turmhund.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#headerE {
+    width: 300px;
+    Height: 80px;
+    font-size: 4em;
+    text-align: center;
+    margin:auto;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    color:var(--emphasisE);
+    font-family:'Inter', sans-serif;
+    font-style: normal;
 }
 
 
