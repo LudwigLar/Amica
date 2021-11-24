@@ -7,6 +7,7 @@
     <title>Chat</title>
 
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./stylesheets/font-awesome-4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -36,10 +37,10 @@
                     <h3 class="active" onclick="window.location.href = `./groups.html`" id="edges">Groups</h3>
                     <h3 onclick="window.location.href = `./matches.html`">Matches</h3>
                 </div>
-
-                <form role="search" id="searchbar">
-                    <input id="search" aria-label="Search through events" placeholder="Search..." type="text">
-                </form>
+                <div class="wrap">
+                <input id="search" aria-label="Search through events" placeholder="Search..." type="text">
+                <img style="display: inline-block;position: absolute;margin-top: 10px;margin-left: 5px;" src="./Icon_images/nChat.png" width="30px" height="30px">
+                </div>
 
 
 
@@ -51,17 +52,19 @@
             <section>
                 <div id="innhold">
                     <div class="chatbox">
-                       <button><img class="nav" src="Icon_images/PB.png" width="75" height="75"> </button>
-                        <h2 id="etittel">Name Surname</h2>
-                        <p id="kat">Chat Content</p>
+                        <img class="profilBilder" src="./profilbilder/Gruppe1.jpg" alt="1">
+                        <div class="chatInfo">
+                            <h4><b>Filmklubben</b></h4>
+                            <h4 class="mld">Didrik: Møtes bare utenfor da  | 11:04</h4>
+                        </div>
                     </div>
-
-                 <div class="chatbox">
-                            <button><img class="nav" src="Icon_images/PB.png" width="75" height="75"> </button>
-                            <h2 id="etittel">Name Surname</h2>
-                            <p id="kat">Chat Content</p>
+                    <div class="chatbox">
+                        <img class="profilBilder" src="./profilbilder/Gruppe2.jpg" alt="1">
+                        <div class="chatInfo">
+                            <h4><b>BacIT Høst 21</b></h4>
+                            <h4 class="mld">Siri uploaded a file  | 07:15</h4>
+                        </div>
                     </div>
-                </div>
                 </div>
             </section>
         </div>
