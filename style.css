@@ -5,7 +5,8 @@
     --emphasisE:#f07810;
     --emphasisC:#7b61ff;
     --subtle:#343434;   
-    --text:'Inter', sans-serif;
+    --text:Helvetica;
+    --grey:#c4c4c4;
 }
 #frame {
     border: 3px solid black;
@@ -58,7 +59,7 @@
     height: 60px;
     width: calc(100% - 1.5px);
     background-color: var(--bg);
-    border: #c4c4c4 1px solid;
+    border: var(--grey) 1px solid;
     position: absolute;
     bottom: 0px;
     justify-items: center;
@@ -73,7 +74,7 @@
 }
 
 #logo {
-    font-family: helvetica;
+    font-family: var(--text);
     position: absolute;
     margin-left: 20px;
     padding: 3px;
@@ -110,7 +111,7 @@
     padding-top: 60px;
     margin-top: 20px;
     font-size: 50px;
-    font-family: helvetica;
+    font-family: var(--text);
     font-weight: lighter;
 
 }
@@ -145,7 +146,7 @@
 }
 
 #crevent {
-    font-family: Helvetica;
+    font-family: var(--text);
     font-size: 1.1em;
 
 }
@@ -182,6 +183,23 @@
     height: 30px;
     text-align: center;
     margin-top: 10px;
+    font-family:Arial, FontAwesome !important;
+    display: inline-block;
+    position: relative;
+}
+
+.wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.wrap::after{
+    content: "\f002";
+    font-family:Arial, FontAwesome !important;
+    right: 160px;
+    top: 18px;
+    position: absolute;
+    color: var(--grey);
 }
 
 #search::placeholder {
@@ -197,7 +215,8 @@
 .profilBilder {
     border-radius: 50%;
     height:55px;
-    width:55px
+    width:55px;
+    object-fit: cover;
 }
 
 .chatbox {
@@ -211,16 +230,18 @@
 }
 
 .chatInfo {
-    font-size: 14px;
     margin-top:-10px;
     margin-left: 10px;
-    font-weight: bold;
 }
 
 
 .chatbox h4 {
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.chatbox .mld {
     font-weight: lighter;
-    font-size: 11px;
 }
 
 #imgt {
@@ -267,7 +288,7 @@ button.sbutton{
     border-radius: 20px;
     border: 3px solid gray;
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--text);
     font-size: 1em;
     transition-duration: 0.4s;
 }
@@ -292,7 +313,7 @@ button.cbutton{
     height: 50px;
     border-radius: 20px;
     border: 3px solid gray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--text);
     font-size: 1em;
     transition-duration: 0.4s;
 }
@@ -320,7 +341,7 @@ button.cbutton:hover a{
 
 #login p {
     text-align: center;
-    font-family: helvetica;
+    font-family: var(--text);
     font-size: 1.5em;
     margin-top: 0px;
 }
@@ -334,7 +355,7 @@ button.cbutton:hover a{
     margin-top: 200px;
     margin-bottom: 10px;
     color:var(--emphasisE);
-    font-family:'Inter', sans-serif;
+    font-family:var(--text);
     font-style: normal;
     box-shadow: 0 2px 0 0 var(--content);
 }
@@ -420,7 +441,7 @@ button.cbutton:hover a{
     margin-top: 200px;
     margin-bottom: 10px;
     color:var(--emphasisE);
-    font-family:'Inter', sans-serif;
+    font-family:var(--text);
     font-style: normal;
 }
 
@@ -429,7 +450,7 @@ button.cbutton:hover a{
 #flog{
     margin: auto;
     text-align: center;
-    font-family: helvetica;
+    font-family: var(--text);
     font-size: 1.5em;
 }
 
@@ -461,7 +482,7 @@ button.cbutton:hover a{
     height: 60px;
     margin: auto;
     font-size: 2em;
-    font-family: helvetica;
+    font-family: var(--text);
     font-weight: 600;
     letter-spacing: 1.75px;
     background-color: var(--emphasisE);
@@ -478,7 +499,7 @@ button.cbutton:hover a{
 
 .dropdown-check-list {
     font-size: 1,5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--text);
   }
   
   .dropdown-check-list .anchor {
@@ -539,7 +560,7 @@ button.cbutton:hover a{
 
   textarea{
     resize: none;
-    font-family: helvetica;
+    font-family: var(--text);
     font-size: 1em;
     height: 120px;
     width: 305px;
@@ -570,7 +591,7 @@ button.cbutton:hover a{
     justify-content: center;
     align-items: center;
     font-size: 1.8em;
-    font-family: helvetica;
+    font-family: var(--text);
     margin-left: 50px;
     margin-bottom: 30px;
     
@@ -592,7 +613,7 @@ option {
     width: 50px;
     height: 50px;
     font-size: 3em;
-    font-family: helvetica;
+    font-family: var(--text);
     font-weight: bolder;
     background-color: rgb(191, 192, 250);
     border-radius: 30px;
@@ -652,5 +673,5 @@ option {
 }
 
 html {
-    font-family: "Helvetica";
+    font-family: var(--text);
 }
