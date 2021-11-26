@@ -78,8 +78,9 @@
     position: absolute;
     margin-left: 20px;
     padding: 3px;
-    box-shadow: 0px 2px 4px black;
-    font-weight: lighter;
+    font-weight: bolder;
+    color: #f07810;
+    font-size: 1.7em;
 }
 
 #setting {
@@ -674,4 +675,43 @@ option {
 
 html {
     font-family: var(--text);
+}
+
+/* Profil side styling */
+
+#Pinnhold{
+    width: 80%;
+    height: 570px;
+    margin-top: 180px;
+    margin-left: 40px;
+    padding-top: 10px;
+    overflow-x: hidden;
+    position: absolute;
+    border: solid #f07810 2px;
+    border-radius: 10px; 
+}
+
+#editP{
+    font-size: 0.8em;
+    text-decoration:none;
+    width: 60px;
+    height: 30px;
+    border: solid black 1px;
+    background-color: #fffcfa;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin-left: 250px;
+}
+
+#editP a{
+    text-decoration: none;
+}
+
+#Ppicture{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 90px;
 }
