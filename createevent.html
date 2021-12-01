@@ -30,7 +30,7 @@
                 <img id="setting" src="Icon_images/Settings.png" width="40" height="40">
                 
                 <div id="tittel">
-                    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 35px; font-weight: lighter; margin-top: 30px;">CREATE EVENT</h1>
+                    <h1>CREATE EVENT</h1>
                 </div>
                <div id="filler">
                </div>
@@ -53,6 +53,7 @@
                         <br>
                         <input type="text" name="location" class="felt" placeholder="Add location here">
                         <br>
+                        <!-- brukt denne for å lage checkbox list https://stackoverflow.com/questions/1229856/what-is-the-best-way-to-style-a-list-of-checkboxes -->
                         <div id="list1" class="dropdown-check-list" tabindex="100">
                             <span class="anchor">Category</span>
                             <ul class="items">
@@ -74,20 +75,18 @@
                         <label for="desc">Description</label>
                         <br>
                         <!--Lærte om textarea fra W3 og hvordan den ikke skulle endre størrelsen her: https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea-->
-                        <textarea name="Description" rows="10" cols="30">Enter description.</textarea>
+                        <textarea name="Description" rows="10" cols="30" placeholder="Enter description here"></textarea>
                         <br>
                         <label for="bilde">Upload Picture</label>
                         <br>
-                        <input type="file" name="bilde">
-                        <br>
-                        <button class="sbutton" type="submit"> <a href="event.html" title="Publish">Publish</a></button> 
-                        <br> 
-                        <button class="cbutton" type="submit"> <a href="event.html" title="Cancel">Cancel</a></button>
-                        <br>
+                        <input type="file" name="bilde" class="uploadpic">
                     </form>
-                        </div>
 
-                    </form>
+                    <button class="sbutton" type="submit" form="formstyle"> <a href="event.html" title="Publish">Publish</a></button> 
+                    <br>
+                    <button class="cbutton" type="submit" form="formstyle"> <a href="event.html" title="Cancel">Cancel</a></button>
+
+                        </div>
                    </div> 
                 </div>
             </section>
