@@ -86,7 +86,12 @@
 .searchtips {
     position: absolute;
     top: 160px;
-    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchtips input {
+    margin-left: 0px !important;
 }
 
 #setting {
@@ -785,4 +790,18 @@ html {
     object-fit: cover;
     border-radius: 100%;
     margin-left: 90px;
+}
+
+#plusIcon {
+    background-image: url(./Icon_images/Plus.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+}
+
+#filterIcon {
+    background-image: url(./Icon_images/Filter.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
 }
