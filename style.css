@@ -636,7 +636,8 @@ button.cbutton a{
     font-size: 1.8em;
     font-family: var(--text);
     margin-left: 50px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: 50% 75%;
     background-size: cover;
