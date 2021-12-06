@@ -83,6 +83,17 @@
     font-size: 1.7em;
 }
 
+.searchtips {
+    position: absolute;
+    top: 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchtips input {
+    margin-left: 0px !important;
+}
+
 #setting {
     float: right;
     margin-right: 20px;
@@ -617,20 +628,50 @@ button.cbutton a{
 }
 
 .tipsboks {
-    height:200px;
+    height:130px;
     width:300px;
-    background-color:gray;
-    margin:10px;
+    vertical-align: text-top;
     color:white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.8em;
     font-family: var(--text);
     margin-left: 50px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    background-size: cover;
+    opacity: 0.75;
+    border-radius: 15px;
+}
 
+.tipsboks h1 {
+    vertical-align: text-top;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+#tipsboks1 {
+    background-image: url(./bakgrunnsbilder/Hiking.jpg);
+}
+
+#tipsboks2 {
+    background-image: url(./bakgrunnsbilder/Nightlife.jpg);
+}
+
+#tipsboks3 {
+    background-image: url(./bakgrunnsbilder/Bars.jpg);
+}
+
+#tipsboks4 {
+    background-image: url(./bakgrunnsbilder/Art.jpg);
+}
+
+#tipsboks5 {
+    background-image: url(./bakgrunnsbilder/Food.jpg);
+}
+
+#tipsboks6 {
+    background-image: url(./bakgrunnsbilder/Shopping.jpg);
 }
 
 .inntips {
@@ -749,4 +790,18 @@ html {
     object-fit: cover;
     border-radius: 100%;
     margin-left: 90px;
+}
+
+#plusIcon {
+    background-image: url(./Icon_images/Plus.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+}
+
+#filterIcon {
+    background-image: url(./Icon_images/Filter.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
 }
