@@ -724,6 +724,77 @@ button.cbutton a{
     height:640px !important;
 }
 
+#match {
+    width: 100%;
+    height: 100%;
+}
+
+.matchBilde {
+    border-radius: 50%;
+    width: 30%;
+    height: 22%;
+    margin-top: 5%;
+    margin-left: 50px;
+    float: left;
+}
+
+#matchOver {
+    color: var(--emphasisE);
+}
+
+#matchInfo {
+    top: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+#matchInfo h3 {
+    margin-bottom: 10px;
+}
+
+#matchInfo h4 {
+    margin-top: 0px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#matchMld {
+    height: 10%;
+    width: 75%;
+    color: var(--bg);
+    top: 40%;
+    left: 12%;
+    font-size: 15px;
+    margin-top: 90px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: var(--emphasisE);
+    text-align: center;
+    cursor: pointer;
+}
+
+#matchMld h2 {
+    margin-top: 15px;
+}
+
+#matchBot {
+    top: 70%;
+    left: 23%;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+}
+
+#matchBot img {
+    width: 50%;
+}
+
+.innMatches {
+    align-content: center;
+    text-align: center;
+}
+
 option {
     color:rgb(16, 151, 241);
     font-size: 20px;
