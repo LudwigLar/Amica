@@ -305,7 +305,6 @@ button.cbutton a{
     height: 30px;
     text-align: center;
     margin-top: 10px;
-    font-family:Arial, FontAwesome !important;
     display: inline-block;
     position: relative;
 }
@@ -313,15 +312,6 @@ button.cbutton a{
 .wrap {
     display: inline-block;
     position: relative;
-}
-
-.wrap::after{
-    content: "\f002";
-    font-family:Arial, FontAwesome !important;
-    right: 160px;
-    top: 18px;
-    position: absolute;
-    color: var(--grey);
 }
 
 #search::placeholder {
