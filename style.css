@@ -754,12 +754,13 @@ html {
     font-family: var(--text);
 }
 
-/* Profil side styling */
+/* Profil side styling start */
+/* Mye av styling er testet seg frem til med forslag av kode fra Visual studio code, bruk av inspection tool og https://www.w3schools.com/css/default.asp */
 
 #Pinnhold{
     width: 80%;
-    height: 570px;
-    margin-top: 180px;
+    height: 590px;
+    margin-top: 170px;
     margin-left: 40px;
     padding-top: 10px;
     overflow-x: hidden;
@@ -775,7 +776,7 @@ html {
     height: 30px;
     border: solid black 1px;
     background-color: #fffcfa;
-    border-radius: 5px;
+    border-radius: 7px;
     text-align: center;
     padding: 0px 10px 0px 10px;
     margin-left: 250px;
@@ -792,6 +793,8 @@ html {
     border-radius: 100%;
     margin-left: 90px;
 }
+
+/* Profil side styling slutt */
 
 #plusIcon {
     background-image: url(./Icon_images/Plus.png);
