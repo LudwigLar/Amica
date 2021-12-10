@@ -24,7 +24,6 @@
             <section id="header">
                 <h2 id="logo">AMICA</h2>
 
-                <img id="setting" src="Icon_images/Settings.png" width="40" height="40">
 
                 <div id="tittel">
                     <h1 id="headerE">EDIT PROFILE</h1>
@@ -32,8 +31,32 @@
 
             </section>
 
-                <div id="Pinnhold">
+                <div id="EPinnhold">
 
+                    <!-- Ønsket å endre filopplastning knappen og fulgte denne veiledningen https://stackoverflow.com/questions/2855589/replace-input-type-file-by-an-image -->
+                    <div> 
+                        <img id="saveP" onclick="window.location.href='./Profile.html'" src="Icon_images/Save_edit.png"> 
+                    </div>
+
+                    <div> 
+                        <img id="cancelP" onclick="window.location.href='./Profile.html'" src="Icon_images/Cancel_edit.png"> 
+                    </div>
+                    <!-- Lært om HTML form elementer fra W3 https://www.w3schools.com/html/html_form_elements.asp og hvordan å style text area https://www.w3schools.com/css/css_form.asp  -->
+                    <div class="EB-upload">
+                        <label for="file-input">
+                          <img id="EB-img" src="Icon_images/Edit_profile_icon.png">
+                        </label>
+                      
+                        <input id="file-input" type="file" />
+                    </div>
+                    <!-- Har igjen brukt litt styling direkte i HTML for å unngå masse rot i CSS filen -->
+                    <p style="margin-top: 5px; text-align: center;">Change picture</p>
+
+                    <h1 style="font-size: 1em; margin-left: 20px; margin-bottom: 5px; margin-top: 20px;">BIO</h1>
+                    <textarea name="Ebio" id="Ebio" rows="10" cols="30" placeholder="Edit bio."></textarea>
+
+                    <h1 style="font-size: 1em; margin-left: 20px; margin-bottom: 5px; margin-top: 20px;">TAGS</h1>
+                    <textarea name="Etags" id="Etags" rows="10" cols="30" placeholder="Edit tags."></textarea>
 
                 </div>
                 
