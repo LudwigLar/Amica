@@ -292,6 +292,15 @@ button.cbutton a{
     position:relative;
 }
 
+.underheaders:hover {
+    color: var(--emphasisE) !important;
+    cursor: pointer;
+}
+
+.underheaders.active {
+    color: var(--emphasisC);
+}
+
 #aevents {
     margin-right: 58px;
     margin-left: 40px;
