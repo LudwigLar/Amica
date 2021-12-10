@@ -30,22 +30,63 @@
 
                 <h1 style="font-size: 1em; margin-left: 50px; margin-top: 0px;">ACCOUNT</h1>
                 <div id="setting-B1">
-                    <p style="margin-left: 10px; font-size: 0.9em;">Private profile</p>
-                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 20px;">Hide study course</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 8px; margin-bottom: 30px;">Private profile</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; padding-top: 8px;">Hide study course</p>
                 </div>
 
-                <h1 style="font-size: 1em; margin-left: 50px; margin-top: 40px; ">APPLICATION</h1>
+                <h1 style="font-size: 1em; margin-left: 50px; margin-top: 30px; ">APPLICATION</h1>
                 <div id="setting-B2"> 
-                    <p style="margin-left: 10px; font-size: 0.9em;">Dark mode</p>
-                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 20px;">Display notifications</p>
-                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 20px;">Language</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 8px; margin-bottom: 30px;">Dark mode</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; padding-top: 8px;">Display notifications</p>
+                    <button class="open-button" onclick="openForm()">ENG</button>
+
+                    <div class="form-popup" id="LanguForm">
+                        <form class="form-container">
+
+                        <label for="English"><b>English</b></label>
+                        <input type="checkbox" id="Eng" name="Eng" value="English">
+                        <p style="font-size: 0.9em; margin-top: 5px; color: rgb(177, 177, 177);"> System default </p>
+
+                        <label for="Norwegian"><b>Norsk</b></label>
+                        <input type="checkbox" id="Nor" name="Nor" value="Norwegian">
+                        <p style="font-size: 0.9em; margin-top: 5px; color: rgb(177, 177, 177);"> Norsk </p>
+
+                            <button type="button" class="btn confirm" onclick="closeForm()">Confirm</button>
+                         </form>
+                    </div>
+
+                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 33px;">Language</p>
                 </div>
 
-                <h1 style="font-size: 1em; margin-left: 50px; margin-top: 40px;">PRIVACY</h1>
+                <h1 style="font-size: 1em; margin-left: 50px; margin-top: 30px;">PRIVACY</h1>
                 <div id="setting-B3">
-                    <p style="margin-left: 10px; font-size: 0.9em;">Cookies</p>
-                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 20px;">Show me in Matches</p>
-                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 20px;">Terms of Service</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 8px; margin-bottom: 30px;">Cookies</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p style="margin-left: 10px; font-size: 0.9em; padding-top: 8px;">Show me in Matches</p>
+                    <p style="margin-left: 10px; font-size: 0.9em; margin-top: 33px;">Terms of Service</p>
                 </div>
             </div>
                 
@@ -53,6 +94,8 @@
         
     </div>
 
+<script src="script.js">
+</script>
 </body>
 
 </html>
