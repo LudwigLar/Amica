@@ -105,7 +105,7 @@
 #tittel {
     position: absolute;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     width: 80%;
     height: 15%;
@@ -755,7 +755,7 @@ html {
     font-family: var(--text);
 }
 
-/* Profil side styling */
+/* Profil side styling -------------------------------------------------------------------------*/
 /* Mye av styling er testet seg frem til med forslag av kode fra Visual studio code, bruk av inspection tool og https://www.w3schools.com/css/default.asp */
 
 #Pinnhold{
@@ -797,7 +797,7 @@ html {
 
 
 
-/* Edit profil side styling */
+/* Edit profil side styling -------------------------------------------------------------------------*/
 
 #EPinnhold{
     width: 80%;
@@ -875,7 +875,17 @@ html {
     resize: none;
 }
 
-/* Settings side styling*/
+/* Settings side styling -------------------------------------------------------------------------*/
+
+#cancel-setting{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    cursor: pointer;
+}
 
 #setting-innhold{
     width: 100%;
