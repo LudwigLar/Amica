@@ -754,7 +754,7 @@ html {
     font-family: var(--text);
 }
 
-/* Profil side styling start */
+/* Profil side styling */
 /* Mye av styling er testet seg frem til med forslag av kode fra Visual studio code, bruk av inspection tool og https://www.w3schools.com/css/default.asp */
 
 #Pinnhold{
@@ -794,7 +794,87 @@ html {
     margin-left: 90px;
 }
 
-/* Profil side styling slutt */
+
+
+/* Edit profil side styling */
+
+#EPinnhold{
+    width: 80%;
+    height: 590px;
+    margin-top: 170px;
+    margin-left: 40px;
+    padding-top: 10px;
+    overflow-x: hidden;
+    position: absolute;
+    border: solid #f07810 2px;
+    border-radius: 10px; 
+}
+
+  /* Brukte denne veildeningen for å sentrere opplastning knappen https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
+.EB-upload{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.EB-upload>input {
+    display: none;    
+  }
+
+#EB-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#saveP{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+}
+
+
+#cancelP{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    float: left;
+    margin-left: 5px;
+    
+}
+
+/* Lært om styling av text area herfra https://www.w3schools.com/css/css_form.asp */
+#Ebio{
+    width: 265px;
+    height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    resize: none;
+}
+
+#Etags {
+    width: 265px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 10px;;
+    resize: none;
+}
+
+
 
 #plusIcon {
     background-image: url(./Icon_images/Plus.png);
