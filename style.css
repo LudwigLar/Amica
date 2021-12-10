@@ -99,6 +99,7 @@
     margin-right: 20px;
     margin-top: 20px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 #tittel {
