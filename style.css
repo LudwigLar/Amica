@@ -389,6 +389,7 @@ button.cbutton a{
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
     overflow: visible;
+    padding: 1%;
 }
 
 #descTitle {
@@ -409,6 +410,7 @@ button.cbutton a{
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
     overflow: visible;
+    padding: 1%;
 }
 
 #tagTitle {
