@@ -377,14 +377,14 @@ button.cbutton a{
 }
 
 .innUevent {
-    height: calc(90% - 3px) !important;
+    height: calc(73% - 3px) !important;
     margin-top: 160px !important;
 }
 
 #descriptionE {
     left: 8.0625%;
     width: 85%;
-    top: 45%;
+    top: 50%;
     position: absolute;
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
@@ -398,14 +398,14 @@ button.cbutton a{
 
 #tInfo {
     left: 8.0625%;
-    top: 25%;
+    top: 30%;
     position: absolute;
 }
 
 #tagsE {
     left: 8.0625%;
     width: 85%;
-    top: 63%;
+    top: 73%;
     position: absolute;
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
@@ -419,7 +419,7 @@ button.cbutton a{
 
 #actBoks {
     position: absolute;
-    top: 72%;
+    top: 85%;
     width: 10%;
     height: 10%;
     left: 8.0625%;
@@ -437,8 +437,8 @@ button.cbutton a{
     margin-left: 5%;
     float: left;
     border-radius: 25px;
-    width: 40%;
-    height: 50%;
+    width: 45%;
+    height: 55%;
     border: var(--emphasisE) 2px solid;
 }
 
@@ -453,7 +453,7 @@ button.cbutton a{
     float: left;
     border-radius: 25px;
     width: 40%;
-    height: 50%;
+    height: 55%;
     border: var(--emphasisE) 2px solid;
     background-color: var(--emphasisE);
     color: var(--bg);
