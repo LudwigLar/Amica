@@ -100,6 +100,7 @@
     margin-top: 20px;
     object-fit: contain;
     cursor: pointer;
+    z-index: 9;
 }
 
 #tittel {
@@ -308,7 +309,7 @@ button.cbutton a{
 
 #infoGrid {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 8.0625%;
     width: 85%;
     height: 20%;
@@ -377,12 +378,13 @@ button.cbutton a{
 
 .innUevent {
     height: calc(90% - 3px) !important;
+    margin-top: 160px !important;
 }
 
 #descriptionE {
     left: 8.0625%;
     width: 85%;
-    top: 63%;
+    top: 45%;
     position: absolute;
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
@@ -395,14 +397,14 @@ button.cbutton a{
 
 #tInfo {
     left: 8.0625%;
-    top: 45%;
+    top: 25%;
     position: absolute;
 }
 
 #tagsE {
     left: 8.0625%;
     width: 85%;
-    top: 80%;
+    top: 63%;
     position: absolute;
     border-radius: 10px;
     border: var(--emphasisE) 2px solid;
@@ -415,7 +417,7 @@ button.cbutton a{
 
 #actBoks {
     position: absolute;
-    top: 90%;
+    top: 72%;
     width: 10%;
     height: 10%;
     left: 8.0625%;
