@@ -1150,6 +1150,74 @@ input:checked + .slider:before {
     width: 50%;
   }
 
+/*Styling til Radio knappene*/
+
+/* The container */
+.Rcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: white;
+    font-size: 1px;
+  }
+  
+  /* Ta vekk standar styling av radioknappen */
+  .Rcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Styling til selve knappen */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: solid 2px #f07810;
+    margin-left: 170px;
+  }
+  
+  /* For å ha bekgrunnsfarge til den valgte knappen */
+  .Rcontainer input:checked ~ .checkmark {
+    background-color: #f07810;
+  }
+  
+  #Eng{
+      Font-family: helvetica;
+      Font-size: 1.5em;
+      Position: absolute;
+      margin: 0px 20px 20px 0px;
+      padding-top: 10px;
+  }
+  
+  #Nor{
+      Font-family: helvetica;
+      Font-size: 1.5em;
+      Position: absolute;
+      margin: 0px 20px 20px 0px;
+      padding-top: 10px;
+  }
+  
+  #undertekst{
+      Font-family: helvetica;
+      Font-size: 0-9em;
+      color: rgb(177, 177, 177);
+      Position: absolute;
+      margin: 25px 20px 20px 0px;
+  }
+
+
 
 #plusIcon {
     background-image: url(./Icon_images/Plus.png);

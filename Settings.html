@@ -59,13 +59,20 @@
                     <div class="form-popup" id="LanguForm">
                         <form class="form-container">
 
-                        <label for="English"><b>English</b></label>
-                        <input type="checkbox" id="Eng" name="Eng" value="English">
-                        <p style="font-size: 0.9em; margin-top: 5px; color: rgb(177, 177, 177);"> System default </p>
-
-                        <label for="Norwegian"><b>Norsk</b></label>
-                        <input type="checkbox" id="Nor" name="Nor" value="Norwegian">
-                        <p style="font-size: 0.9em; margin-top: 5px; color: rgb(177, 177, 177);"> Norsk </p>
+                    <!-- Fulgt veiledning om Radio button fra https://www.w3schools.com/tags/att_input_type_radio.asp , https://www.w3schools.com/howto/howto_css_custom_checkbox.asp -->
+                        <p id="Eng"> English </p> <br>
+                        <p id="undertekst"> System default </p>
+                        <label class="Rcontainer">.
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    
+                    <p id="Nor"> Norwegian </p> <br>
+                    <p id="undertekst"> Norsk </p>
+                    <label class="Rcontainer">.
+                      <input type="radio" name="radio">
+                      <span class="checkmark"></span>
+                    </label>
 
                             <button type="button" class="btn confirm" onclick="closeForm()">Confirm</button>
                          </form>
